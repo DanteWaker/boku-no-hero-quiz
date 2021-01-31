@@ -26,6 +26,9 @@ export const QuizContainer = styled.div`
 
 export default function Home() {
   return (
+    <head>
+      <meta property="og:image" content="www.meusite.com.br/imagem.jpg"></meta>
+    </head>
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
         <QuizLogo />
