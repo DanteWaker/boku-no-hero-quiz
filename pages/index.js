@@ -29,7 +29,7 @@ export default function Home() {
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
         <head>
-          <meta property="og:image" content="db.image-description" />
+          <meta property="og:image" content="db['image-description']" />
         </head>
         <QuizLogo />
         <Widget>
