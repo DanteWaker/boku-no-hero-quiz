@@ -31,7 +31,6 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <ThemeProvider theme={theme}>
-        <meta property="og:image" content= "db.theme" />
         <GlobalStyle />
         <Component {...pageProps} />
       </ThemeProvider>
