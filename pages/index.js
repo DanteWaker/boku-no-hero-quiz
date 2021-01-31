@@ -28,6 +28,8 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <QuizContainer>
+        <meta property="og:image" content="db.image-description" />
+
         <QuizLogo />
         <Widget>
           <Widget.Header>
